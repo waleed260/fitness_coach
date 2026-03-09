@@ -129,3 +129,4 @@ MIT License - see LICENSE file for details.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues and pull requests.
+# fitness_coach
