@@ -19,10 +19,6 @@ A multi-agent AI fitness coaching system. Get personalized workout plans, nutrit
 | `nutrition_agent` | Provides dietary guidance and meal planning |
 | `tracker_agent` | Tracks progress and calculates health metrics (BMI) |
 
-## Requirements
-
-- Python 3.12+
-- [uv](https://docs.astral.sh/uv/) (recommended) or pip
 
 ## Installation
 
