@@ -51,7 +51,40 @@ uv run fitness-coach
 ### Example Conversation
 
 ```
-🏋️ Welcome to your AI Fitness Coach!
+🏋️ Welcome to your AI Fitness Coa
+## Development
+
+```bash
+# Install in development mode
+uv sync --dev
+
+# Run with hot reload (if using watchfiles)
+uv run python -m fitness_coach.main
+```
+
+## How It Works
+
+1. **Initial Assessment** - The `fitness_coach` gathers information about your goals, fitness level, and preferences
+2. **Specialist Handoff** - Based on your needs, you're routed to the appropriate specialist:
+   - Workout questions → `workout_agent`
+   - Nutrition questions → `nutrition_agent`
+   - Progress/BMI → `tracker_agent`
+3. **Personalized Response** - The specialist provides tailored advice and asks a follow-up question
+4. **Continuous Support** - The conversation continues with sustainable, encouraging guidance
+
+## Disclaimer
+
+This AI fitness coach provides general guidance and should not replace professional medical advice. Consult with healthcare providers before starting any new fitness or nutrition program, especially if you have pre-existing health conditions.
+
+## License
+
+MIT License - see LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues and pull requests.
+# fitness_coach
+ch!
 I'm here to help you achieve your fitness goals.
 
 You: I want to lose weight and build muscle
