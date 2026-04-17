@@ -96,33 +96,3 @@ any specific health conditions I should know about?
 [Hands off to workout_agent or nutrition_agent based on your response]
 ```
 
-## Tools
-
-### `calculate_bmi`
-
-Calculate Body Mass Index with health category and guidance.
-
-```
-Parameters:
-  - weight_kg: Weight in kilograms
-  - height_cm: Height in centimeters
-
-Returns:
-  - bmi: Calculated BMI value
-  - category: Underweight/Normal/Overweight/Obese
-  - guidance: Health recommendations
-```
-
-## Project Structure
-
-```
-fitness_coach/
-├── pyproject.toml              # Project configuration and dependencies
-├── README.md                   # This file
-└── src/fitness_coach/
-    ├── __init__.py             # Package exports
-    ├── main.py                 # Main fitness_coach agent + entry point
-    ├── workout_agent.py        # Workout planning specialist
-    ├── nutrition_agent.py      # Nutrition guidance specialist
-    └── tracker_agent.py        # Progress tracking + BMI tool
-```
