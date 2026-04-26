@@ -18,20 +18,3 @@ fitness_coach = Agent(
 )
 
 
-async def main():
-    """Run the fitness coach agent interactively."""
-    from agents import Runner
-    
-    print("🏋️ Welcome to your AI Fitness Coach!")
-    print("I'm here to help you achieve your fitness goals.\n")
-    
-    runner = Runner(
-        agents=[fitness_coach, workout_agent, nutrition_agent, tracker_agent],
-    )
-    
-    await runner.run_interactive()
-
-
-if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
